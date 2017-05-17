@@ -1,0 +1,19 @@
+{
+  "name": "7Segment-Kata",
+  "description": "7Segment Kata",
+  "version": "1.0.0",
+  "main": "app.js",
+  "private": false,
+  "engines": {
+    "node": "5.3.0",
+    "npm": "3.3.12"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.4",
+    "mocha": "^2.5.3"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/istanbul cover node_modules/mocha/bin/_mocha -- -R spec --recursive"
+  }
+}
